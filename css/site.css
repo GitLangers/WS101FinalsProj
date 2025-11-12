@@ -13,10 +13,10 @@
 
 body {
   background-image: url("../img/meatbg.jpg"), url("../img/Topology-2.png");
-  background-repeat: no-repeat, repeat; /* First image no repeat, second repeats */
-  background-position: top center, top center; /* First image sticks to top */
-  background-size: contain, cover; /* Adjust to your needs */
-  background-attachment: scroll, scroll; /* Optional: second one stays on scroll */
+  background-repeat: no-repeat, repeat;
+  background-position: top center, top center; 
+  background-size: contain, cover;
+  background-attachment: scroll, scroll;
 }
 
 
