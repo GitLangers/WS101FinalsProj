@@ -34,5 +34,32 @@
 
   </div>
 </header>
-<a href="index.html"><img src="img/roll.gif" style="width: auto; height: 70vh;"></a>
+<div class="carousel-container">
+<div class="carousel">
+  <a href="https://example1.com" target="_blank">
+    <img src="img/Frame 1.png" class="carousel-img">
+  </a>
+  <a href="https://example2.com" target="_blank">
+    <img src="img/Frame 2.png" class="carousel-img">
+  </a>
+  <a href="https://example3.com" target="_blank">
+    <img src="img/Frame 3.png" class="carousel-img">
+  </a>
+</div>
+</div>
+
+<script>
+let index = 0;
+const slides = document.querySelectorAll(".carousel a");
+
+function showSlide() {
+  index = (index + 1) % slides.length;
+  slides.forEach((slide, i) => {
+    slide.style.transform = `translateX(-${index * 100}%)`;
+  });
+}
+
+setInterval(showSlide, 3000); 
+</script>
+
 </body>
