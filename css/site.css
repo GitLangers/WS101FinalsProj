@@ -19,6 +19,13 @@ body {
   background-attachment: scroll, scroll;
 }
 
+.pfppage{
+  background-image: url("../img/Topology-2.png");
+  background-repeat: repeat; 
+  background-position: top center; 
+  background-size: cover; 
+  background-attachment: scroll; 
+}
 
 .site-header {
   width: 100%;
